@@ -32,6 +32,7 @@ hero:
 #-------------------------------
 # Blog Settings
 blog:
+  title: La Softwarería
   hero__title: "Hacer software es un movidón"
   hero__description: Historias de artesanía digital por <a href="https://en.wikipedia.org/wiki/Minimum_viable_product" taget="_blank">Ivo</a> y <a href="https://productschool.com/blog/product-management-2/minimum-lovable-product/" taget="_blank">Carlos</a>.
 
