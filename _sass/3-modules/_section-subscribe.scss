@@ -125,6 +125,15 @@
   border-radius: 8px;
   padding: 16px 24px;
   background-color: white;
+  color: black;
+
+  .banner__title, a {
+    color: black;
+  }
+
+  a {
+    border-bottom: 1px solid var(--dark);
+  }
 
   @media only screen and (min-width: $tablet) and (max-width: $desktop) {
     padding: 16px 80px;
@@ -166,6 +175,8 @@
 .banner .button {
   text-align: center;
   align-self: center;
+  background-color: var(--dark);
+  color: white;
 
   @media (min-width: $desktop) {
     width: 300px;
