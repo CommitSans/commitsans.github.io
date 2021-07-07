@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Commit Sans
-logo: # You can add own logo. For example '/images/logo.png'.
+logo: '/images/logo.png'
 author: Commit Sans
 description: Diseño y cosas wapas
 
@@ -26,7 +26,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: "We're your TAAS <br />(Team as a Service)"
-  hero__description: We're a creative duo that designs and develops from <a href="https://en.wikipedia.org/wiki/Minimum_viable_product" taget="_blank">MVP</a> to <a href="https://productschool.com/blog/product-management-2/minimum-lovable-product/" taget="_blank">MLP</a>. Our network of collaborators helps with illustration, marketing and native app projects.
+  hero__description: We do everything from <a href="https://en.wikipedia.org/wiki/Minimum_viable_product" taget="_blank">MVP</a> to <a href="https://productschool.com/blog/product-management-2/minimum-lovable-product/" taget="_blank">MLP</a>. Wanna build something great? Let's talk!
 
 
 #-------------------------------
@@ -63,7 +63,8 @@ about:
     - image: /images/about/carlos.jpg
       title: Carlos Hernández
       description: The Code Guy
-      url: /about/carlos
+      # url: /about/carlos
+      url: http://codingcarlos.com/
 
     - image: /images/about/carlos.jpg
       title: Ivo Vilches

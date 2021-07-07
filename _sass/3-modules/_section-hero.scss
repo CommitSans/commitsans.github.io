@@ -37,17 +37,15 @@
   @media only screen and (max-width: $tablet) {
     // fixes space between text and button
     .button {
-      margin-top: 56px;
+      margin-top: $base-spacing-unit;
+    }
+    hr {
+      margin-top: $base-spacing-unit * 2;
     }
   }
 
   @media only screen and (max-width: $desktop) {
-    
-    // aligns content and text
-    margin: 0px 0px 32px 0px;
-    padding: 0px 0px 40px 0px;
-    text-align: center;
-    
+
     // swaps img and text
     .row {
       flex-direction: column-reverse;
