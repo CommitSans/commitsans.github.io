@@ -5,9 +5,35 @@
         <description></description>
         <link>/</link>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 05 Jul 2021 18:22:00 +0200</pubDate>
-        <lastBuildDate>Mon, 05 Jul 2021 18:22:00 +0200</lastBuildDate>
+        <pubDate>Wed, 07 Jul 2021 13:35:47 +0200</pubDate>
+        <lastBuildDate>Wed, 07 Jul 2021 13:35:47 +0200</lastBuildDate>
         <generator>Jekyll v4.2.0</generator>
+        
+            <item>
+                <title>Cosas de desarrollo</title>
+                <description>&lt;h1 id=&quot;el-código-es-poesía&quot;&gt;El código es poesía&lt;/h1&gt;
+
+&lt;p&gt;Y danza clásica, también.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 31 Dec 2011 00:00:00 +0100</pubDate>
+                <link>/blog/new-years-eve-is-awesome</link>
+                <guid isPermaLink="true">/blog/new-years-eve-is-awesome</guid>
+                
+                
+            </item>
+        
+            <item>
+                <title>Cosas de diseño</title>
+                <description>&lt;h1 id=&quot;figma-mola&quot;&gt;Figma mola&lt;/h1&gt;
+
+&lt;p&gt;Pero nosequé de las herramientas.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 31 Dec 2011 00:00:00 +0100</pubDate>
+                <link>/blog/new-years-eve-is-awesome-copy</link>
+                <guid isPermaLink="true">/blog/new-years-eve-is-awesome-copy</guid>
+                
+                
+            </item>
         
     </channel>
 </rss>

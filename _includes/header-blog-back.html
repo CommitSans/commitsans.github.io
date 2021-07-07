@@ -1,37 +1,33 @@
 <!-- begin header -->
-<header class="header white">
+<header class="header-blog">
   <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
-
         <div class="logo flex">
           <a onclick="goBack()" class="flex background-hover" style="margin-right: 16px;"">
             <span class="material-icons" style="align-self: center;">
               arrow_back
             </span>
           </a>
-          <a class="logo__link" href="{{ site.baseurl }}/">
+          <a class="logo__link" href="{{ site.baseurl }}/" style="font-family: Georgia, 'Times New Roman', Times, serif">
           {% if site.data.settings.logo %}
             <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
           {% else %}
-            {{ site.data.settings.title }}
+            Inconexo
           {% endif %}
           </a>
         </div>
 
-        <!-- <nav class="main-nav">
+        <nav class="main-nav">
             <ul class="nav__list list-reset">
-              {% for item in site.data.settings.menu__settings.menu__items %}
                 <li class="nav__item">
-                  <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} nav__link--current{% endif %}">{{ item.title }}</a>
+                  <a href="/about/" class="nav__link">¿Quién escribe aquí?</a>
                 </li>
-              {% endfor %}
+                <li class="nav__item">
+                  <a href="mailto:ivo@commitsans.com" class="button button--outline subscribe__button" id="membedded-subscribe" name="subscribe">Suscribirme</a>
+                </li>
             </ul>
-        </nav> -->
-
-        <div class="nav-cta">
-          <a href="mailto:ivo@commitsans.com" class="button button--outline">Get in touch</a>
-        </div>
+        </nav>
 
         <!-- <div class="nav-button">
           <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>

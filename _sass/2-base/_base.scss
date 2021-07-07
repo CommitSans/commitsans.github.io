@@ -358,7 +358,7 @@ iframe {
 }
 
 .white {
-  background: white;
+  background: white !important;
   p, li, em, h1, h2, h3, h4 {
     color: black !important;
 
@@ -367,6 +367,7 @@ iframe {
     }
 
   }
+
 }
 
 // HELPERS

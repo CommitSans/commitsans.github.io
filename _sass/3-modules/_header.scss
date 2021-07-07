@@ -41,9 +41,10 @@
   }
 }
 
-.header-blog, .hero-blog {
-  border-bottom: 1px solid #afc680;
-  background-color: #c5e38a;
+.header-blog {
+  .container {
+    width: 100%;
+  }
 }
 
 /* Logo */
@@ -53,6 +54,21 @@
       cursor: pointer;
     }
   }
+}
+
+.white .logo__link {
+  color: black;
+}
+
+.white .logo { 
+  a {
+    color: black;
+  }
+}
+
+.white .button--outline {
+  border: 1px solid var(--dark);
+  background-color: transparent;
 }
 
 .logo__link {
@@ -200,6 +216,13 @@
       }
     }
   }
+
+  @media only screen and (max-width: $tablet) {
+    .nav__item:nth-child(3) {
+      display: none;
+    }
+  }
+
 }
 
 .nav-button {

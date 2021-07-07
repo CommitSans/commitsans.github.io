@@ -8,10 +8,11 @@
   text-align: left;
   flex-direction: column;
 
+  // links in hero section
   .hero__description a {
     // border-bottom: 2px solid var(--gray);
-    background: var(--medium-gray);
-    padding: 0px 4px;
+    // background: var(--medium-gray);
+    // padding: 0px 4px;
   }
 
   // adjust home button position
@@ -58,19 +59,14 @@
 
 // changes link background
 .hero__description a:hover {
-  background-color: var(--gray);
+  // background-color: var(--gray);
 }
 
 .hero-blog {
   padding: 116px 0 64px 0;
-  background-color: #C5E38A;
 
   .hero__inner .hero__description {
     color: black;
-  }
-
-  .hero__description a {
-    background: #e2e298;
   }
 
   .avatar {
@@ -94,6 +90,7 @@
 
   .hero__inner {
     margin-bottom: 24px;
+    display: inline-block;
   }
 
 }
