@@ -4,6 +4,10 @@
   will-change: transform;
   transition: transform .2s;
 
+  .article__title {
+    color: white;
+  }
+
   &:hover {
     transform: translateY(-3px);
     cursor: pointer;
@@ -17,7 +21,8 @@
 
   // adds solid background to cards
   .article__inner {
-    background-color: white;
+    background-color: transparent;
+    // background-color: white;
   }
 
   @media only screen and (max-width: $tablet) {
