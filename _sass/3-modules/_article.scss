@@ -4,7 +4,7 @@
   will-change: transform;
   transition: transform .2s;
 
-  .article__title {
+  .article__title__white {
     color: white;
   }
 
@@ -21,8 +21,12 @@
 
   // adds solid background to cards
   .article__inner {
+    background-color: white;
+  }
+
+  // adds an option to remove the solid background in certain places
+  .article__inner__transparent {
     background-color: transparent;
-    // background-color: white;
   }
 
   @media only screen and (max-width: $tablet) {
