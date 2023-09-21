@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title: Work
 description: 'Cool stuff people pay me to do'
 ---
@@ -11,7 +11,7 @@ description: 'Cool stuff people pay me to do'
       <div class="col col-10 col-d-12">
         <div class="hero__inner">
             <h1 class="hero__title">Portfolio</h1>
-            <p class="hero__description">{{ page.description }}</p>
+            <p class="hero__description">{{ site.data.settings.portfolio.portfolio__subtitle }}</p>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ description: 'Cool stuff people pay me to do'
       <div class="col col-10 col-d-12">
         <div class="hero__inner">
             <h1 class="hero__title">Projects</h1>
-            <p class="hero__description">Stuff I don't get paid for</p>
+            <p class="hero__description">{{ site.data.settings.projects.projects__description }}</p>
         </div>
       </div>
     </div>

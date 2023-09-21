@@ -132,9 +132,12 @@ portfolio:
 #-------------------------------
 # Projects
 projects:
+  projects__title: Projects
+  projects__description: Stuff
+   
   project__list:
 
-    - image: /images/sacred-video.png
+    - image: /images/work/projects/freethefish.png
       title: Free the Fish
       description: I shooted and edited this video for Sacred Wolves and had a lot of fun.
       tags: video
